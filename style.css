@@ -1,0 +1,209 @@
+.top-nav{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: sticky;
+    top: 0px;
+}
+
+.barimg{
+    max-height:3em;
+    max-width:3em;
+}
+.box{
+    max-width: 724px;
+    margin: auto;
+    padding: auto;
+}
+
+.profile-back{
+    height:241px;
+    width:724px;
+}
+.box-one{
+    max-width: 724px;
+    margin: auto;
+    padding: auto;
+}
+ .dp-follow{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+ }
+.box-two{
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+}
+.dp-picture{
+    position: relative;
+    bottom:4.5em;
+    right:0.9em;
+    /* max-width: 10em; */
+}
+.dp{
+    border:3px solid black;
+    border-radius: 50%;
+    width: 148px;
+    height: 148px;
+}
+.button{
+    margin-top: 0.9em;
+}
+.follow-button{
+    border:1.5px solid black;
+    padding:  0.3em 0.7em;
+    border-radius:20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name{
+    font-weight: bolder;
+    /* font-family:  ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"; */
+}
+.checkmark{
+  margin-bottom: 5px;
+}
+.bio{
+    font-size:16px;
+    font-weight: 410;
+}
+.svgtxt{
+    padding-left:7px;
+    color: #414141e6;
+}
+.svglink{
+    padding-left:7px;
+}
+.cvbtn{
+    border:1.5px solid black;
+    padding:2.5px 15px;
+    border-radius:20px;
+    font-size:15.5px;
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nav-btn{
+    border: none;
+    background: none;
+    color: black;
+    font-weight:501;
+}
+.nav-txt:hover{
+    color: black;
+}
+.nav-col{
+    padding:10px;
+    transition: 0.19s;
+}
+.nav-col:hover{
+    background-color: rgb(239, 239, 239);
+}
+.post-txt{
+    font-weight: 301;
+    font-size: 13px;
+}
+.post-dp{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.post-detail{
+    height:50px;
+}
+.post-heading{
+    font-weight: 501;
+}
+.post-pic{
+    border-radius: 7px;
+}
+.post:hover{
+    background-color: rgb(239, 239, 239);
+    transition: 0.2s;
+    border-radius: 7px;
+}
+.post-video{
+    width:528px; 
+    height:352px;
+    border-radius: 7px;
+}
+.post-name{
+    text-decoration: none;
+    color: black;
+}
+.post-name:hover{
+    text-decoration: underline;
+    color: black;
+}
+.foot-icon{
+   font-size: 19px;
+}
+.copyright{
+    color: #414141e6;
+    font-size: 13px;
+}
+.link-btn{
+    background-color:rgb(239, 239, 239);
+    color: black;
+    text-decoration: none;
+    border-radius: 11px;
+    padding: 13px;
+    
+}
+.link-btn:hover{
+    border: 2px solid blue;
+    background-color:rgb(246, 246, 246);
+    /* transition:0.1s; */
+}
+
+@media only screen and (max-width:724px) {
+    .box{
+        width: auto;
+    }
+    
+}
+
+@media only screen and (max-width:430px) {
+    .top-nav{
+        position: static;
+    }
+    .barimg{
+        height:44px;
+        width:44px;
+    }
+    .box-two{
+        margin-left:15px;
+        margin-right:15px;
+    }
+    .dp-follow{
+        height:55px;
+     }
+    .dp{
+        height: 90px;
+        width: 90px;
+    }
+    .dp-picture{
+        position: relative;
+        bottom:40px;
+        right:5px;
+    }
+   
+    .follow-button{
+       font-size: 15.5px;
+    }
+    .svglink{
+        padding-left:2px;
+        font-size:14px;
+    }
+    .svgtxt{
+        font-size:14px;
+    }
+    .svgicon{
+        height: 18px;
+        width: 18px;
+    }
+    .cvbtn{
+        font-size:14px;
+    }  
+}
